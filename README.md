@@ -52,7 +52,7 @@ NPM
 ## Instalación
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/a385520/actividad_1>
 cd todo-app
 npm install
 
@@ -103,25 +103,23 @@ El análisis estático del código JavaScript se realiza con ESLint. Se ejecuta 
 
 ## Estructura general del proyecto
 
+```
 todo-app/
-|-- src/
-|   |-- app.js
-|   |-- services/
-|   |   `-- taskService.js
-|   |-- routes/
-|   |   `-- tasks.js
-|   |-- soap/
-|   |   `-- taskSoap.js
-|   `-- logger.js
-|-- tests/
-|   `-- tasks.test.js
-|-- logs/
-|-- package.json
-|-- package-lock.json
-|-- eslint.config.js
-|-- .gitignore
-`-- README.md
-
+├── src/
+│   ├── app.js
+│   ├── services/
+│   │   └── taskService.js
+│   ├── routes/
+│   ├── tasksSoap.js
+│   └── logger.js
+├── tests/
+│   └── tasks.test.js
+├── logs/
+├── package.json
+├── eslint.config.js
+├── .gitignore
+└── README.md
+```
 
 ## Autor
 
