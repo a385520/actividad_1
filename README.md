@@ -104,39 +104,22 @@ El análisis estático del código JavaScript se realiza con ESLint. Se ejecuta 
 ## Estructura general del proyecto
 
 todo-app/
-
 |-- src/
-
 |   |-- app.js
-
 |   |-- services/
-
 |   |   `-- taskService.js
-
 |   |-- routes/
-
 |   |   `-- tasks.js
-
 |   |-- soap/
-
 |   |   `-- taskSoap.js
-
 |   `-- logger.js
-
 |-- tests/
-
 |   `-- tasks.test.js
-
 |-- logs/
-
 |-- package.json
-
 |-- package-lock.json
-
 |-- eslint.config.js
-
 |-- .gitignore
-
 `-- README.md
 
 
